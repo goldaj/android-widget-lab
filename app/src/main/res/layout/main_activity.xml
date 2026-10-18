@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/titleLabel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/enterCity_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/city_label" />
+
+    <EditText
+        android:id="@+id/inputCity_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="@string/city_default" />
+
+    <Button
+        android:id="@+id/okButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingRight="80dp"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="@string/ok_label" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="42dp"
+        android:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/adLabel_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/ad_label" />
+
+    <TextView
+        android:id="@+id/poweredBy_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:autoLink="web"
+        android:text="@string/powered_link" />
+
+    <TextView
+        android:id="@+id/developedBy_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/developed_label" />
+
+    <TextView
+        android:id="@+id/imaginedBy_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/imagined_label" />
+
+    <TextView
+        android:id="@+id/sourceText_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/github_label" />
+
+    <TextView
+        android:id="@+id/githubLink_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:autoLink="all"
+        android:linksClickable="true"
+        android:text="@string/github_link" />
+</LinearLayout>

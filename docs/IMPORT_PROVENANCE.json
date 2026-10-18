@@ -1,0 +1,186 @@
+{
+  "import_date": "2026-10-18",
+  "note": "Originals and source mappings remain local. Public configuration edits are described in README.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_group": "android-first-app",
+      "published_sha256": "1f4da3baa1c7a7aa386e2963528166d2a40ea64791f254510867c3f55c1a60aa",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "build.gradle",
+      "source_group": "android-first-app",
+      "published_sha256": "9fabe5b8b4340e1fa6de42d3a607df338eb19319a30ed1f722f5b7a9b90594b2",
+      "source_sha256": "9fabe5b8b4340e1fa6de42d3a607df338eb19319a30ed1f722f5b7a9b90594b2"
+    },
+    {
+      "path": "gradle.properties",
+      "source_group": "android-first-app",
+      "published_sha256": "cdba34980c80d0b49aa27859b01afc3b87b155d65d4b62c3479e085668386682",
+      "source_sha256": "cdba34980c80d0b49aa27859b01afc3b87b155d65d4b62c3479e085668386682"
+    },
+    {
+      "path": "gradlew.bat",
+      "source_group": "android-first-app",
+      "published_sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62",
+      "source_sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62"
+    },
+    {
+      "path": "settings.gradle",
+      "source_group": "android-first-app",
+      "published_sha256": "b9b212b003a6f82e4920941a2b752ae8b29180a4d7538f7832b40f5f8f0698b4",
+      "source_sha256": "b9b212b003a6f82e4920941a2b752ae8b29180a4d7538f7832b40f5f8f0698b4"
+    },
+    {
+      "path": "app/.gitignore",
+      "source_group": "android-first-app",
+      "published_sha256": "d96f1d5b78765c2d3024439e9b0d38adcc23ece44a4f6e7427d86f4ca2df6607",
+      "source_sha256": "d96f1d5b78765c2d3024439e9b0d38adcc23ece44a4f6e7427d86f4ca2df6607"
+    },
+    {
+      "path": "app/build.gradle",
+      "source_group": "android-first-app",
+      "published_sha256": "3679cef3a750ae6173beee6808b953abec57547a2a85dddecb7fc6fcab14b7ec",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "app/src/androidTest/java/com/example/goldaj/firstapp/ExampleInstrumentedTest.java",
+      "source_group": "android-first-app",
+      "published_sha256": "450fb600a0c4558c7afe7814474c2eebd5ca074c3e922e2b468d91373cc5b6c4",
+      "source_sha256": "450fb600a0c4558c7afe7814474c2eebd5ca074c3e922e2b468d91373cc5b6c4"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "6de9355e7999e9421064babb44389f9d53b27bd8bd08f3aca8ddd4c26e9c750c",
+      "source_sha256": "6de9355e7999e9421064babb44389f9d53b27bd8bd08f3aca8ddd4c26e9c750c"
+    },
+    {
+      "path": "app/src/main/java/com/example/goldaj/firstapp/DataRetriever.java",
+      "source_group": "android-first-app",
+      "published_sha256": "941389ba1d008f938fde594a7c20172cb445b162c4bbf3c36ab8f0470c357646",
+      "source_sha256": "941389ba1d008f938fde594a7c20172cb445b162c4bbf3c36ab8f0470c357646"
+    },
+    {
+      "path": "app/src/main/java/com/example/goldaj/firstapp/MainActivity.java",
+      "source_group": "android-first-app",
+      "published_sha256": "574b808934098685a4bf2c6e598914306f0c311d4d7f84b79f4628d7cc03cfb5",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "app/src/main/java/com/example/goldaj/firstapp/WidgetActivity.java",
+      "source_group": "android-first-app",
+      "published_sha256": "b2181b84279892e20fdc6b91e0b816ffb4ffb48297d4b1cfd4d6b8c0f3a0a643",
+      "source_sha256": "b2181b84279892e20fdc6b91e0b816ffb4ffb48297d4b1cfd4d6b8c0f3a0a643"
+    },
+    {
+      "path": "app/src/main/java/com/example/goldaj/firstapp/WidgetProvider.java",
+      "source_group": "android-first-app",
+      "published_sha256": "53083a32489f64360ef782fc79b08644cc668c0f8127a60570cd70311a09aa98",
+      "original_preserved_locally": true
+    },
+    {
+      "path": "app/src/main/res/drawable/widget_background.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "d7885c3210ac69eff99c59908d8389bd4bb513388cdbb18bf75858ab2b3757d0",
+      "source_sha256": "d7885c3210ac69eff99c59908d8389bd4bb513388cdbb18bf75858ab2b3757d0"
+    },
+    {
+      "path": "app/src/main/res/layout/main_activity.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "8d428523a01daf297da50fa5e09591083693e476bad1de5a7b6b2adbcc088485",
+      "source_sha256": "8d428523a01daf297da50fa5e09591083693e476bad1de5a7b6b2adbcc088485"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_popup_activity.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "fecc0f5c4f1e9542817cc7018f42039673f7c31503c5f97d081973cfda3552c8",
+      "source_sha256": "fecc0f5c4f1e9542817cc7018f42039673f7c31503c5f97d081973cfda3552c8"
+    },
+    {
+      "path": "app/src/main/res/layout/widget_provider.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "f55a783ecfcd65259b3f033e847dfc5caa748c72a1a4b26030f64cdf7452bcbd",
+      "source_sha256": "f55a783ecfcd65259b3f033e847dfc5caa748c72a1a4b26030f64cdf7452bcbd"
+    },
+    {
+      "path": "app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "source_group": "android-first-app",
+      "published_sha256": "820e323f5506dc1dda3fad164e5fa0acd56a8266e4ea441db94e60fd9972d28a",
+      "source_sha256": "820e323f5506dc1dda3fad164e5fa0acd56a8266e4ea441db94e60fd9972d28a"
+    },
+    {
+      "path": "app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "source_group": "android-first-app",
+      "published_sha256": "90f5bc4bf1364152b1943933b6910bafc913e7a813de5c1b0ba4723e33e58975",
+      "source_sha256": "90f5bc4bf1364152b1943933b6910bafc913e7a813de5c1b0ba4723e33e58975"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "source_group": "android-first-app",
+      "published_sha256": "552f9a01050827cc24c9bf50569fe8b0a121fb93297106e224986e7a4e9cc747",
+      "source_sha256": "552f9a01050827cc24c9bf50569fe8b0a121fb93297106e224986e7a4e9cc747"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "source_group": "android-first-app",
+      "published_sha256": "c6e7620e6c5d9bf8020f7216117d8cb799f7936f232e28732443b1fe79521d6c",
+      "source_sha256": "c6e7620e6c5d9bf8020f7216117d8cb799f7936f232e28732443b1fe79521d6c"
+    },
+    {
+      "path": "app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "source_group": "android-first-app",
+      "published_sha256": "77c2aa8ab1424e123ee86c4cb7b92e2b9b84bfeccc2cecb0d33df8d6410c939f",
+      "source_sha256": "77c2aa8ab1424e123ee86c4cb7b92e2b9b84bfeccc2cecb0d33df8d6410c939f"
+    },
+    {
+      "path": "app/src/main/res/values/colors.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "8ee443fd1ba67ebe900dc4a0d15a5aba7d575b00afd72418954df7eab10e9eb1",
+      "source_sha256": "8ee443fd1ba67ebe900dc4a0d15a5aba7d575b00afd72418954df7eab10e9eb1"
+    },
+    {
+      "path": "app/src/main/res/values/dimens.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "fcbd987410b11fc79b05867bb6ba307cfbe62e979ca9f4d08100bf6cd710dc1c",
+      "source_sha256": "fcbd987410b11fc79b05867bb6ba307cfbe62e979ca9f4d08100bf6cd710dc1c"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "8ccba3fd872bdb427d2c1d38bc0f244a6d30cc27c0b6fa9993d75623fe9016a2",
+      "source_sha256": "8ccba3fd872bdb427d2c1d38bc0f244a6d30cc27c0b6fa9993d75623fe9016a2"
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "29bffe1d26f8755faa4744064cf82d99a80732d937b5e72d684c8cc1c12de2e9",
+      "source_sha256": "29bffe1d26f8755faa4744064cf82d99a80732d937b5e72d684c8cc1c12de2e9"
+    },
+    {
+      "path": "app/src/main/res/values-w820dp/dimens.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "c797343469ccb9a6729c6a2a7303ecef73cfe1ba5052f208a6675a2199874fc1",
+      "source_sha256": "c797343469ccb9a6729c6a2a7303ecef73cfe1ba5052f208a6675a2199874fc1"
+    },
+    {
+      "path": "app/src/main/res/xml/widget_provider.xml",
+      "source_group": "android-first-app",
+      "published_sha256": "70ce4d36117f6648036e49f94843f8dae295a65b2446edf217000c22b881fe5e",
+      "source_sha256": "70ce4d36117f6648036e49f94843f8dae295a65b2446edf217000c22b881fe5e"
+    },
+    {
+      "path": "gradlew",
+      "source_group": "android-first-app",
+      "published_sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b",
+      "source_sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b"
+    },
+    {
+      "path": "app/proguard-rules.pro",
+      "source_group": "android-first-app",
+      "published_sha256": "2fe728d95e29d3364eaccd06d188900694f5afb11277d8c0d2581d1ab711e478",
+      "source_sha256": "2fe728d95e29d3364eaccd06d188900694f5afb11277d8c0d2581d1ab711e478"
+    }
+  ]
+}

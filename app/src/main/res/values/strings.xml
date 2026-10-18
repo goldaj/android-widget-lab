@@ -1,0 +1,24 @@
+<resources>
+    <!-- for main activity -->
+    <string name="app_name">FirstApp</string>
+    <string name="title">AirQualityApp</string>
+    <string name="city_label">Enter City:</string>
+    <string name="city_default">Paris</string>
+    <string name="ok_label">OK</string>
+    <string name="ad_label">AirQualityApp is</string>
+    <string name="powered_link">- powered by: agicn.org</string>
+    <string name="developed_label">- developed by: <b>Json</b></string>
+    <string name="imagined_label">- imagined by: <b>Simon</b></string>
+    <string name="github_label">Source id available on:</string>
+    <string name="github_link">GitHub.com</string>
+    <!-- for widget -->
+    <string name="city_value">TEST</string>
+    <string name="aqi_label">"AQI "</string>
+    <string name="aqi_value">"TEST"</string>
+    <string name="health_value">TEST: Little sentence about health</string>
+    <string name="temperature_label">"Temp.: "</string>
+    <string name="temperature_value">"TEST"</string>
+    <string name="degree_label">°C</string>
+    <!-- to call server -->
+    <string name="root_url">http://api.waqi.info/feed/</string>
+</resources>

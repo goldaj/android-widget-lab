@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Local credentials and generated files
+secrets.properties
+*.keystore
+*.jks
+.env*
+local.properties
+.gradle/
+**/build/
+.idea/
