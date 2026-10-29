@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/widget_background" >
+    android:padding="8dp"
+    android:background="@drawable/widget_background">
 
     <TextView
         android:id="@+id/cityValue_id"
@@ -13,19 +14,18 @@
         android:layout_height="wrap_content" />
 
     <LinearLayout
-        android:id="@+id/aqiLayout_id"
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <TextView
             android:id="@+id/aqiLabel_id"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/aqi_label" />
         <TextView
             android:id="@+id/aqiValue_id"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/aqi_value" />
     </LinearLayout>
 
@@ -33,28 +33,32 @@
         android:id="@+id/healthValue_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/health_value"/>
+        android:text="@string/health_value" />
 
     <LinearLayout
-        android:id="@+id/healthLayout_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <TextView
             android:id="@+id/temperatureLabel_id"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/temperature_label" />
         <TextView
             android:id="@+id/temperatureValue_id"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/temperature_value" />
         <TextView
             android:id="@+id/temperatureUnite_id"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/degree_label"/>
+            android:text="@string/degree_label" />
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/updatedValue_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_value" />
 </LinearLayout>
