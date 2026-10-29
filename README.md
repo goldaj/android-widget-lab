@@ -29,3 +29,7 @@ Une évolution réelle du widget a été implémentée sur `feat/functional-air-
 Le flux n'est pas encore certifié sur un smartphone moderne : Gradle 2.2.3, SDK 25 et wrapper incomplet nécessitent une migration. **Ne pas annoncer d'APK installable.** Tests hors ligne : `tests/AirQualityRulesTest.java`, `tests/test_layout_contract.py`, workflow `widget-contract.yml`. Guide détaillé et passation : [docs/AQI_FUNCTIONAL_SLICE.md](docs/AQI_FUNCTIONAL_SLICE.md).
 
 L'injection du token dans `BuildConfig` persiste pour le développement **privé** ; la compilation dans un APK le rend extractible, donc **interdit de distribuer le binaire avec cette clé**. Prévoir un backend avant toute publication.
+
+## Évolution en PR (29 octobre 2026)
+
+Une branche ajoute un parcours AQI asynchrone, configuration de ville par widget, actualisation au toucher, HTTPS et mode démo sans données fictives. Voir [documentation fonctionnelle](docs/AQI_FUNCTIONAL_SLICE.md). **APK non compilé** : l'ancien SDK/Gradle reste à migrer.
