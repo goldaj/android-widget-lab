@@ -1,24 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- for main activity -->
-    <string name="app_name">FirstApp</string>
-    <string name="title">AirQualityApp</string>
-    <string name="city_label">Enter City:</string>
+    <string name="app_name">Qualité de l’air</string>
+    <string name="title">Qualité de l’air</string>
+    <string name="city_label">Saisir une ville :</string>
     <string name="city_default">Paris</string>
-    <string name="ok_label">OK</string>
-    <string name="ad_label">AirQualityApp is</string>
-    <string name="powered_link">- powered by: agicn.org</string>
-    <string name="developed_label">- developed by: <b>Json</b></string>
-    <string name="imagined_label">- imagined by: <b>Simon</b></string>
-    <string name="github_label">Source id available on:</string>
-    <string name="github_link">GitHub.com</string>
-    <!-- for widget -->
-    <string name="city_value">TEST</string>
-    <string name="aqi_label">"AQI "</string>
-    <string name="aqi_value">"TEST"</string>
-    <string name="health_value">TEST: Little sentence about health</string>
-    <string name="temperature_label">"Temp.: "</string>
-    <string name="temperature_value">"TEST"</string>
+    <string name="ok_label">Consulter</string>
+    <string name="ad_label">Indice de qualité de l’air (AQI)</string>
+    <string name="powered_link">Données WAQI lorsque le jeton local est configuré.</string>
+    <string name="developed_label">Prototype Android pédagogique.</string>
+    <string name="imagined_label">Mode démonstration sans données simulées.</string>
+    <string name="github_label">Projet source :</string>
+    <string name="github_link">github.com/goldaj/android-widget-lab</string>
+    <string name="city_value">Ville non configurée</string>
+    <string name="aqi_label">AQI : </string>
+    <string name="aqi_value">—</string>
+    <string name="health_value">En attente</string>
+    <string name="temperature_label">Température : </string>
+    <string name="temperature_value">—</string>
     <string name="degree_label">°C</string>
-    <!-- to call server -->
-    <string name="root_url">http://api.waqi.info/feed/</string>
+    <string name="update_value">Mis à jour : —</string>
+    <string name="root_url">https://api.waqi.info/feed/</string>
 </resources>
