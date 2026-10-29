@@ -19,3 +19,7 @@ Lire impérativement `docs/AQI_FUNCTIONAL_SLICE.md`. Le chantier actuel est isol
 - Tests CI uniquement sur règles Java pures + structure XML (sans compilation Android complète) : `widget-contract.yml`. Ne jamais présenter ces tests comme un APK validé.
 - Prochain chantier principal : migration du build Android/Gradle, tests sur appareil et gestion d'un backend secret / quotas. Ne pas activer un token réel dans un workflow public ni publier un APK avec token dans `BuildConfig`.
 - Maintenir `docs/CHATGPT_PROJECT_HISTORY.md` et le guide lors d'une reprise ; ne pas merger automatiquement sans review.
+
+## Reprise du 29 octobre 2026
+
+Branche `feat/functional-air-quality-widget-20261029` : parcours widget et client WAQI réécrits, tests Java/XML hors ligne, détails dans `docs/AQI_FUNCTIONAL_SLICE.md`. Ne pas prétendre qu'un APK est compilable sans migration SDK/Gradle. L'utilisateur a demandé d'exclure ce dépôt des améliorations ultérieures dans cette conversation dès la fin de cette livraison.
