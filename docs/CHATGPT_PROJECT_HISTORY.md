@@ -24,3 +24,7 @@ Les transcriptions exactes des échanges précédents et leurs horaires ne sont 
 - Tests ajoutés : Java pur (validation et qualification AQI) et structure Android XML, CI hors ligne. **Ne couvrent pas le build APK ni un appareil réel.** L'ancien outillage (AGP 2.2.3/SDK25 et Gradle Wrapper incomplet) demeure. Tester le résultat de la CI réelle avant d'affirmer qu'elle passe.
 - Aucune clé/token, aucun appel WAQI réel et aucun build/install Android exécutés. Risque du token extractible dans BuildConfig documenté.
 - Codex : lire `docs/AQI_FUNCTIONAL_SLICE.md`, vérifier les checks, migrer l'outillage dans une PR distincte, tester sur smartphone/émulateur et ne distribuer qu'avec un backend qui garde les secrets hors APK.
+
+## 2026-10-29 — reprise (résumé non verbatim)
+
+L'utilisateur demande de développer les dépôts avec une réelle valeur fonctionnelle, documentation et transmission Codex. Intervention sur branche `feat/functional-air-quality-widget-20261029` : configuration par instance, retour réseau asynchrone, mode démonstration, HTTPS, tests de logique et de ressources. Aucune compilation APK ni connexion WAQI vérifiée. L'utilisateur demande d'exclure ce dépôt des travaux suivants de cette conversation une fois cette intervention terminée.
